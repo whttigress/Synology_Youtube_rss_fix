@@ -19,7 +19,6 @@ echo('<?xml version="1.0" encoding="utf-8"?>
 	<rss>
 		<channel>
 			<title>' . $mainTitle . '</title>
-
 				');
 				if (!is_null($items)) {
 	foreach ($items as $item) {
@@ -36,7 +35,6 @@ echo('<item>
 	}
 }
 echo('
-
 		</channel>
 	</rss>');
 	?>
